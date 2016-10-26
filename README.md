@@ -17,3 +17,6 @@ use google chrome (or FF), and get the console (easy way is to inspect element a
 paste the below in the console, and call function..
 or just paste the piece of code you want to use.
 
+
+## randStrings
+random string generation, in some thrift client - cpp
