@@ -20,3 +20,9 @@ or just paste the piece of code you want to use.
 
 ## randStrings
 random string generation, in some thrift client - cpp
+Also Command Line parameter parsing
+
+
+## c_theads_CVs
+Threads and condition variables in c
+Simple Producer consumer
