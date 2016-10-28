@@ -26,3 +26,6 @@ Also Command Line parameter parsing
 ## c_theads_CVs
 Threads and condition variables in c
 Simple Producer consumer
+
+
+## pdsh sample
