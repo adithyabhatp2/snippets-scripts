@@ -4,3 +4,5 @@ pdsh -R ssh -w ^instances "ls -l / | grep 'workspace'"
 #10.0.0.5
 #10.0.0.6
 #10.0.0.7
+
+pdsh -R ssh -w vm-$GROUP_NUM-[1-5] "sudo apt-get install --assume-yes python-pip python-dev"

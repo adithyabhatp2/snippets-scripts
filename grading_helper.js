@@ -49,6 +49,16 @@ subName;
 
 }
 
+// Fill in additional comments instead of assignment comment
+$resultsComment=$('.no-hover.criterion_comments_link')[0];
+$resultsComment.click();
+$resultsCommentTA = $('#criterion_comments_textarea');
+$resultsCommentTA.val(scoreData);
+
+$subBtn = $('#rubric_criterion_comments_dialog div.editing > div.button-container > .btn.save_button');
+
+$subBtn.click();
+
 
 
 

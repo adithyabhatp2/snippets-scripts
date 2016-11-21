@@ -10,6 +10,7 @@ python code to expose local files via http/https to pull from the browser on can
 run python web server to make student grading files available.. https probably necessary
 
 C:\Users\Elcot\AppData\Local\Google\Chrome\Application\chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
+chromium borwser --user-data-dir="C:/Chrome dev session" --disable-web-security
 
 goto https://localhost:4443 , accept the certificate, verify you can see the files.
 
@@ -29,3 +30,8 @@ Simple Producer consumer
 
 
 ## pdsh sample
+Parallel Shell 
+
+
+## gitignore
+rename to .gitignore in relevant folder
