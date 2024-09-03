@@ -5,6 +5,46 @@ Scripts and Snippets of code that may be (re)useful
 * https://github.com/ohmyzsh/ohmyzsh
 * https://github.com/romkatv/powerlevel10k?tab=readme-ov-file
 
+### .anyshrc
+```
+export LS_OPTS='-GF'
+export LSCOLORS=ExFxCxDxBxegedabagacad
+alias ls='ls ${LS_OPTS}'
+alias ll='ls -lhtr'
+alias lla='ls -lhtra'
+
+mkcd ()
+{
+    mkdir -p "$1"
+    cd "$1"
+}
+
+alias bzl='mbzl'
+
+bgen ()
+{
+        gh dbx preflight bzl-gen-preflight
+        git status
+}
+
+alias bzl_gen='bgen'
+alias bzlgen='bgen'
+
+# Adi's Git aliases
+alias gbv='git branch -av'
+alias gs='git status'
+alias gd='git diff'
+alias ga='git add'
+alias gco='git checkout'
+alias gca='git commit --amend'
+alias gpr='git pull --rebase'
+alias gp='git pull'
+alias glop="git log --pretty=format:'%C(yellow)%h| %Cred%ad| %Cblue%aL|%Cgreen%d %Creset%s' --date=short"
+
+eval $(ssh-agent)
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+```
+
 ## canvas.wisc grading helper
 student submissions (graded) are local file disks
 form entry on canvas.wisc
