@@ -1,6 +1,10 @@
 # snippets-scripts
 Scripts and Snippets of code that may be (re)useful
 
+## Terminal Setup
+* https://github.com/ohmyzsh/ohmyzsh
+* https://github.com/romkatv/powerlevel10k?tab=readme-ov-file
+
 ## canvas.wisc grading helper
 student submissions (graded) are local file disks
 form entry on canvas.wisc
